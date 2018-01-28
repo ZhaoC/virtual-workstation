@@ -7,7 +7,7 @@
 | Name  | Version |
 | ------------- | ------------- |
 | Node.js | v9.2.1 |
-| NPM   | 5.6.0 |
+| NPM   | v5.6.0 |
 | MongoDB | v3.6.0 |
 
 ### Pre-Config 

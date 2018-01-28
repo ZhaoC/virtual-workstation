@@ -8,10 +8,8 @@ import {
 import RaisedButton from 'material-ui/RaisedButton';
 import FlatButton from 'material-ui/FlatButton';
 
-/**
- * A basic vertical non-linear implementation
- */
-class TODO extends React.Component {
+
+class TODOTab extends React.Component {
 
   state = {
     stepIndex: 0,
@@ -101,4 +99,4 @@ class TODO extends React.Component {
   }
 }
 
-export default TODO;
+export default TODOTab;
