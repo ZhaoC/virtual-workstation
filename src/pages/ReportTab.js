@@ -24,9 +24,8 @@ export default class ReportTab extends React.Component {
       <Toolbar>
         <ToolbarGroup firstChild={true}>
           <DropDownMenu value={this.state.value} onChange={this.handleChange}>
-            <MenuItem value={1} primaryText="View" />
-            <MenuItem value={2} primaryText="Chart View" />
-            <MenuItem value={3} primaryText="Statistic View" />
+            <MenuItem value={1} primaryText="Chart View" />
+            <MenuItem value={2} primaryText="Statistic View" />
           </DropDownMenu>
         </ToolbarGroup>
         <ToolbarGroup>

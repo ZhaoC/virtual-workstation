@@ -29,7 +29,7 @@ const ChatTab = () => (
     </List>
     <Divider />
     <List>
-      <Subheader>Previous chats</Subheader>
+      <Subheader>Contacts</Subheader>
       <ListItem
         primaryText="Chelsea Otakan"
         leftAvatar={<Avatar icon={<PersonIcon />} />}

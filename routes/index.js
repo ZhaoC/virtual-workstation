@@ -7,7 +7,7 @@ var router = express.Router();
 router.get('/', function(req, res) {
   // res.render('index', { user: req.user });
   if(req.user){
-    console.log('**** User: '+ req.user.username + 'logged in! ****');
+    console.log('**** User: "'+ req.user.username + '" logged in! ****');
     res.sendFile(path.join(__dirname + '/../build/index.html'));
   } else {
     console.log('**** no user logged in! ****');

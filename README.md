@@ -35,6 +35,9 @@
     # start mongodb
     > sudo mongod
 
+    # or
+    >  mongod --config /usr/local/etc/mongod.conf
+
     # build react        
     npm run react-build
 
